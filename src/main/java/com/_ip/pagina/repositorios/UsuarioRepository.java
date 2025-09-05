@@ -7,6 +7,6 @@ import com._ip.pagina.Entidades.Usuario;
 import java.util.Optional;
 
 public interface UsuarioRepository extends JpaRepository<Usuario, Integer> {
-    Optional<Usuario> findByUsername(String username);
+    Optional<Usuario> findByUserName(String userName);
 }
 

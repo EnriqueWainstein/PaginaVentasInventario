@@ -86,6 +86,11 @@ public class Usuario {
 	public Rol getRol() {
 		return rol;
 	}
+
+
+	public void setContrasenia(String contrasenia) {
+         this.contrasenia=contrasenia;		
+	}
 	
 	
 }
